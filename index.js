@@ -25,9 +25,26 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+
+const animals = farmAnimals.split(" ")
+const [moo,neigh,baa,oink,cluck] = animals
+const [bessie,,dolly,babe,little] = animals
+const [blackAndWhite,,black,pink] = animals
+const [red,orange,yellow,green,blue,indigo,violet] = colors
+const [r,o,y,g,b,indg,v] = colors
+
+const {muppetName,color,song,job,partner} = muppet
+const songseries = ["Moving Right Along","I Hope That Something Better Comes Along","Host of The Muppet Show","Miss Piggy"]
+const [song2,song4,nestedJob,nestedPartner] = songseries
+
+
+
+
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
@@ -46,3 +63,4 @@ const nestedMuppet = {
 // 7. Use destructuring to assign all variables using the keys as the variable names
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+
